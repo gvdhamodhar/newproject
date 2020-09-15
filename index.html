@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
+        .img{
+            max-width: 100%;
+            height:auto;
+            vertical-align: middle;
+        }
         .active{
             border-bottom: 2px solid brown;
         }
@@ -66,13 +71,39 @@
             padding: 20px;
             background-color:rgb(209, 243, 209);
         }
+        .main{
+            position: absolute;
+            margin-left: 150px;
+            margin-top: -600px;
+            
+        }
+        
+        .pm1{
+            position: absolute;
+            margin-top: -300px;
+            margin-left:600px;
+        }
+        .pm2{
+            position: absolute;
+            margin-top: -300px;
+            margin-left: 320px;
+            z-index: 1;
+        }
+        .pm3{
+            position: absolute;
+            margin-top: -320px;
+            margin-left: 200px;
+        }
+        .con{
+            margin-top: 200px;
+        }
     </style>
 </head>
 <body>
     
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <a class="navbar-brand">
-              <img src="/images/header.png" height="50"width="90" class="img" alt="images"></a>
+              <img src="/images/header.png" height="50"width="190" class="img ml-5" alt="images"></a>
              
               <ul class="navbar-nav right ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -110,7 +141,7 @@
                     <p>Already using our service? Sign in</p>
             </div>
             <div class="col-7">
-                <img src="/images/mobilebanr1.png" alt=" " height="400px" width="700px">
+                <img src="/images/mobilebanr1.png" alt=" ">
             </div>
         </div>
     </div>
@@ -133,6 +164,22 @@
             <h4>Save Time & Money</h4>
             <p>Hiring a candidate involves lot of expanditure on advertisement, interviews etc. Get the competent candidates at your door.</p>
 
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4 con">
+            <h2>We use the network of expert evaluators to provide you the best bunch of talent.</h2>
+            <p>We don't select candidate for you just by filtering resumes but our nework of expert evaluators help us to prepare talent pool based on their skill evaluation. So, you get only quality candidates.</p>
+            <button class="btn rounded-pill btn-primary btn-outline-dark btn-lg">Contact Us</button>
+        </div>
+        <div class="col-8">
+            <img src="/images/p2_bck.png" alt="">
+            <img src="/images/p2_main.png" alt="" class="main" width="800">
+            <img src="/images/p2_m1.png" class="pm1" alt="" width="310">
+            <img src="/images/p2_m2.png" class="pm2" alt="" width="110">
+            <img src="/images/p2_m3.png" alt="" class="pm3" width="150">
         </div>
     </div>
 </div>
